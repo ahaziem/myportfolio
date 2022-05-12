@@ -1,7 +1,14 @@
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 10px;
+}
+header__nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 title {
@@ -14,12 +21,12 @@ title__small {
   font-size: 20px;
   font-weight: 500;
   color: #8C9CB1;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 title__big {
   font-size: 64px;
   color: #272643;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
 title__button {

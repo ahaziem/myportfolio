@@ -1,11 +1,19 @@
 @use "./variable" as *;
 @use "./mixins" as *;
 
+
 header {
     display: flex;
-    justify-content:space-between;
-    align-items: flex-end;
+    align-items: center;
+    justify-content:flex-start;
+    font-family: $primary-font;
+    gap: 10px;
 
+    &__nav-icon {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+    }
 }
 
 title {
