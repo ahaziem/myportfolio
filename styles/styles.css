@@ -50,5 +50,16 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: white;
+}
+
+.technical-skills {
+  display: grid;
+}
+.technical-skills__bem {
+  grid-area: bem;
+}
+.technical-skills__bem__-image {
+  width: 66px;
+  height: 67px;
 }/*# sourceMappingURL=styles.css.map */

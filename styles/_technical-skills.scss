@@ -3,5 +3,18 @@
     
     
     body {
-        background-color: lightblue;
+        background-color: white;
+    }
+
+    .technical-skills {
+        display:grid;
+
+    &__bem {
+        grid-area: bem;
+        &__-image {
+             width:66px;
+             height:67px;
+
+         }
+    }
     }
