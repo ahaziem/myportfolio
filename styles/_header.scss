@@ -4,14 +4,13 @@
 
 header {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:flex-start;
     font-family: $primary-font;
     gap: 10px;
 
     &__nav-icon {
      display: flex;
-     align-items: center;
      justify-content: flex-end;
     }
 }
