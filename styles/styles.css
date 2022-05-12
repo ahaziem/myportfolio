@@ -8,6 +8,7 @@
 .header__name {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .title {
@@ -44,6 +45,7 @@
 .title__arrowsymbol {
   color: #272643;
   border: 2px;
+  font-size: 24px;
 }
 
 body {
