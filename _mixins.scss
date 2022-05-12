@@ -1,3 +1,11 @@
-@mixin name {
-    
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rectangleCircle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
 }
