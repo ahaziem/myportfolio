@@ -19,6 +19,8 @@
     font-family: $primary-font;
     background-color: #F7FAFA;
     @include flexCenter;
+    flex-direction: column;
+    margin: 20%;
 
     &__small {
         font-size: 20px;
@@ -41,6 +43,8 @@
         border: 2px solid #272643;
         border-radius: 7px;
         gap: 10px;
+        width: 321px;
+        height: 78px;
 
     }
 
@@ -49,6 +53,5 @@
         border: 2px;
 
     }
-
     
 }
