@@ -1,7 +1,2 @@
-@media screen and (max-width: 320px) {
-    @use './header' as *;
-    
-    body {
-        background-color: lightblue;
-    }
-}
+@use "./header";
+@use "./body";

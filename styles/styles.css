@@ -1,5 +1,35 @@
-@media screen and (max-width: 320px) {
-  body {
-    background-color: lightblue;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+title {
+  background-color: #F7FAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+title__small {
+  font-size: 20px;
+  font-weight: 500;
+  color: #8C9CB1;
+  font-family: sans-serif;
+}
+title__big {
+  font-size: 64px;
+  color: #272643;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+title__button {
+  color: #272643;
+  font-size: 24px;
+  border: 2px solid #272643;
+  border-radius: 7px;
+  gap: 10px;
+}
+
+body {
+  background-color: lightblue;
 }/*# sourceMappingURL=styles.css.map */
