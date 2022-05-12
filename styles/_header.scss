@@ -11,13 +11,15 @@ header {
 
     &__name {
      display: flex;
-     justify-content: flex-start;
+     justify-content: flex-end;
     }
 }
 
 title {
+    font-family: $primary-font;
     background-color: #F7FAFA;
     @include flexCenter;
+
     &__small {
         font-size: 20px;
         font-weight: 500;
@@ -34,6 +36,7 @@ title {
 
     &__button {
         color: $primary-color;
+        background-color: #BAE8E8;
         font-size: 24px;
         border: 2px solid #272643;
         border-radius: 7px;
