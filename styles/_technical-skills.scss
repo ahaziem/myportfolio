@@ -1,4 +1,7 @@
-
+@use "./variable" as *;
+@use "./mixins" as *;
+    
+    
     body {
         background-color: lightblue;
     }
