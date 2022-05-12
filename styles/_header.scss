@@ -2,7 +2,7 @@
 @use "./mixins" as *;
 
 
-header {
+.header {
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -15,7 +15,7 @@ header {
     }
 }
 
-title {
+.title {
     font-family: $primary-font;
     background-color: #F7FAFA;
     @include flexCenter;

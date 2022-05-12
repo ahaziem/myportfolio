@@ -1,35 +1,35 @@
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   gap: 20px;
 }
-header__name {
+.header__name {
   display: flex;
   justify-content: flex-end;
 }
 
-title {
+.title {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #F7FAFA;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-title__small {
+.title__small {
   font-size: 20px;
   font-weight: 500;
   color: #8C9CB1;
   font-family: Arial, Helvetica, sans-serif;
 }
-title__big {
+.title__big {
   font-size: 64px;
   color: #272643;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
-title__button {
+.title__button {
   color: #272643;
   background-color: #BAE8E8;
   font-size: 24px;
@@ -37,7 +37,7 @@ title__button {
   border-radius: 7px;
   gap: 10px;
 }
-title__arrowsymbol {
+.title__arrowsymbol {
   color: #272643;
   border: 2px;
 }
