@@ -12,6 +12,17 @@
         color:$secondary-color;
         @include flexCentre;
 
+        &__title {
+            font-family: $primary-font;
+            font-weight: bold;
+        }
+
+        &__github {
+            font-family: $primary-font;
+            font-weight: bold;
+            grid-area: git;
+        }
+
     &__bem {
         grid-area: bem;
 
@@ -21,4 +32,6 @@
 
          }
     }
+
+
     }
