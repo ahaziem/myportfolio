@@ -37,6 +37,10 @@ title__button {
   border-radius: 7px;
   gap: 10px;
 }
+title__arrowsymbol {
+  color: #272643;
+  border: 2px;
+}
 
 body {
   background-color: lightblue;
