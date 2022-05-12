@@ -8,11 +8,10 @@
     justify-content:space-between;
     font-family: $primary-font;
     gap: 20px;
+    padding: 5px;
 
     &__name {
-     display: flex;
-     justify-content: flex-end;
-     align-items: flex-end;
+     margin-right: 400px;
     }
 }
 
@@ -35,6 +34,8 @@
         color: $primary-color;
         font-family:$primary-font;
         font-weight: 600;
+        padding: 5px;
+        
     }
 
     &__button {
@@ -46,6 +47,7 @@
         gap: 10px;
         width: 321px;
         height: 78px;
+        font-weight: bold;
 
     }
 
