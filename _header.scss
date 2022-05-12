@@ -4,3 +4,13 @@ header {
     align-items: flex-end;
 
 }
+
+title {
+    background-color: #F7FAFA;
+    @include flexCenter;
+    &__small {
+        font-size: 20px;
+        color: $secondary-color;
+
+    }
+}
