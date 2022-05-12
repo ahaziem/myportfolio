@@ -8,9 +8,13 @@
 
     .technical-skills {
         display:grid;
+        font-family: $primary-font;
+        color:$secondary-color;
+        @include flexCentre;
 
     &__bem {
         grid-area: bem;
+
         &__-image {
              width:66px;
              height:67px;

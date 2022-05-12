@@ -55,11 +55,15 @@ body {
 
 .technical-skills {
   display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8C9CB1;
 }
-.technical-skills__bem {
-  grid-area: bem;
-}
-.technical-skills__bem__-image {
-  width: 66px;
-  height: 67px;
+@incl &__bem {
+  .technical-skills {
+    grid-area: bem;
+  }
+  .technical-skills__-image {
+    width: 66px;
+    height: 67px;
+  }
 }/*# sourceMappingURL=styles.css.map */
