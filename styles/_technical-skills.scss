@@ -6,32 +6,94 @@
         background-color: white;
     }
 
+    mark {
+       display: inline-block;
+       line-height: 0em;
+       padding-bottom: 0.5em;
+       background-color: $color-blue;
+    }
+
+    img {    
+            width:66px;
+            height:67px;
+    }
+
+    p {
+             display: inline-block;
+             text-align: center;
+            
+    }
+
+    i {
+        color:$color-blue;
+        width:60px;
+        height:60px;
+    }
+
     .technical-skills {
-        display:grid;
         font-family: $primary-font;
-        color:$secondary-color;
-        @include flexCentre;
+        color: $secondary-color;
+        font-size: 40px;
+        position:relative;
+        margin-top: 5rem;
+        
 
         &__title {
             font-family: $primary-font;
             font-weight: bold;
+            color:$primary-color;
+            font-weight: 600;
+            @include flexCenter;
+
+        }
+
+        &__grid {
+            position:absolute;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr,1fr,1fr;
+            grid-template-rows: 1fr,1fr,1fr;
+            grid-template-areas: 
+            "git html css"
+            "javascript scss bem"
+            "react java springboot";
         }
 
         &__github {
-            font-family: $primary-font;
-            font-weight: bold;
             grid-area: git;
         }
 
     &__bem {
         grid-area: bem;
 
-        &__-image {
-             width:66px;
-             height:67px;
-
-         }
     }
 
+    &__html {
+        grid-area: html;
+    }
 
+    &__css {
+        grid-area: css;
+    }
+
+    &__javascript {
+        grid-area: javascript;
+    }
+
+    &__bem {
+        grid-area: bem;
+    }
+
+    &__react {
+        grid-area: react;
+    }
+
+    &__java {
+        grid-area: java;
+    }
+
+    &__springboot {
+        grid-area: springboot;
+    }
+    
     }

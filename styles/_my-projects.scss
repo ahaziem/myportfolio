@@ -1,2 +1,32 @@
 @use "./variable" as *;
 @use "./mixins" as *;
+
+.my-projects {
+    @include flexCenter;
+    font-size:30px;
+    font-family:$primary-font;
+
+    &__header {
+    font-size: 32px;
+    font-weight: bold;
+    }
+
+    &__title {
+        color:$color-blue;
+    }
+
+    &__para {
+        color: $secondary-color;
+    }
+}
+
+i {
+    color:$primary-color;
+}
+
+mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background-color: $color-blue;
+ }
