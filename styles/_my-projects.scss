@@ -3,7 +3,7 @@
 
 .my-projects {
     @include flexCenter;
-    font-size:30px;
+    font-size:60px;
     font-family:$primary-font;
 
     &__header {
@@ -13,10 +13,14 @@
 
     &__title {
         color:$color-blue;
+         &__--clientpro {
+            font-size: 30px;
+         }
     }
 
     &__para {
         color: $secondary-color;
+        font-size: 30px;
     }
 }
 
