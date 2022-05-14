@@ -1,6 +1,8 @@
 @use "./variable" as *;
 @use "./mixins" as *;
 
+//  update the color of the icon in the footer 
+//  add a class for the icon for the footer
 footer {
     background-color:$primary-color;
 }
