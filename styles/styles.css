@@ -70,7 +70,7 @@ img {
 p {
   display: inline-block;
   text-align: center;
-  color: #8C9CB1;
+  color: black;
 }
 
 i {
@@ -163,7 +163,6 @@ p {
   text-align: bottom;
   display: flex;
   justify-content: center;
-  color: white;
 }
 
 i {
