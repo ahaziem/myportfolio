@@ -62,7 +62,6 @@ mark {
 }
 
 img {
-  position: absolute;
   width: 66px;
   height: 67px;
 }
@@ -73,7 +72,6 @@ p {
 }
 
 i {
-  position: absolute;
   color: #BAE8E8;
   width: 60px;
   height: 60px;
@@ -96,7 +94,6 @@ i {
   align-items: center;
 }
 .technical-skills__grid {
-  position: absolute;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
