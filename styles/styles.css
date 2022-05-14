@@ -62,6 +62,7 @@ mark {
 }
 
 img {
+  position: absolute;
   width: 66px;
   height: 67px;
 }
@@ -72,6 +73,7 @@ p {
 }
 
 i {
+  position: absolute;
   color: #BAE8E8;
   width: 60px;
   height: 60px;
@@ -130,25 +132,17 @@ i {
 }
 
 .my-projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .my-projects__header {
-  font-size: 32px;
   font-weight: bold;
+  font-size: 40px;
 }
 .my-projects__title {
   color: #BAE8E8;
 }
-.my-projects__title__--clientpro {
-  font-size: 30px;
-}
 .my-projects__para {
   color: #8C9CB1;
-  font-size: 30px;
 }
 
 i {
@@ -160,4 +154,22 @@ mark {
   line-height: 0em;
   padding-bottom: 0.5em;
   background-color: #BAE8E8;
+}
+
+footer {
+  background-color: #272643;
+}
+
+p {
+  text-align: bottom;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+i {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  color: #272643;
 }/*# sourceMappingURL=styles.css.map */

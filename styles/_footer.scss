@@ -1,0 +1,18 @@
+@use "./variable" as *;
+@use "./mixins" as *;
+
+footer {
+    background-color:$primary-color;
+}
+
+p {
+    text-align: bottom;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+i {
+    @include rectangleCircle;
+    color: $primary-color;
+}

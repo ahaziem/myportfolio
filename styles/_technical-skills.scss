@@ -13,7 +13,7 @@
        background-color: $color-blue;
     }
 
-    img {    
+    img {   position: absolute;
             width:66px;
             height:67px;
     }
@@ -21,10 +21,10 @@
     p {
              display: inline-block;
              text-align: center;
-            
     }
 
     i {
+        position: absolute;
         color:$color-blue;
         width:60px;
         height:60px;
@@ -97,3 +97,7 @@
     }
     
     }
+
+
+
+  

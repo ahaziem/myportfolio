@@ -1,0 +1,17 @@
+footer {
+  background-color: #272643;
+}
+
+p {
+  text-align: bottom;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+i {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  color: #272643;
+}

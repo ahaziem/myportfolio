@@ -2,25 +2,19 @@
 @use "./mixins" as *;
 
 .my-projects {
-    @include flexCenter;
-    font-size:60px;
     font-family:$primary-font;
 
     &__header {
-    font-size: 32px;
     font-weight: bold;
+    font-size: 40px;
     }
 
     &__title {
         color:$color-blue;
-         &__--clientpro {
-            font-size: 30px;
-         }
     }
 
     &__para {
         color: $secondary-color;
-        font-size: 30px;
     }
 }
 
