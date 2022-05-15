@@ -177,7 +177,15 @@ i {
   color: #272643;
 }
 
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .aboutme__image {
   width: 395px;
-  height: 292.47px;
+  height: 400px;
+}
+.aboutme__title {
+  font-size: 48px;
 }/*# sourceMappingURL=styles.css.map */

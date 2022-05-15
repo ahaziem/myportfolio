@@ -2,9 +2,14 @@
 @use "./mixins" as *;
 
 .aboutme {
+    @include flexCenter;
 
     &__image{
         width: 395px;
-        height: 292.47px;
+        height: 400px;
+    }
+
+    &__title {
+        font-size: 48px;
     }
 }
