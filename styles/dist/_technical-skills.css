@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  background-color: #BAE8E8;
+}
+
+img {
+  width: 66px;
+  height: 67px;
+}
+
+i {
+  color: #BAE8E8;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+
+.technical-skills {
+  color: #8C9CB1;
+  font-size: 40px;
+  position: relative;
+  margin-top: 5rem;
+}
+.technical-skills__para {
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+.technical-skills__title {
+  font-weight: bold;
+  color: #272643;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.technical-skills__grid {
+  text-align: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-areas: "git html css" "javascript scss bem" "react java springboot";
+}
+.technical-skills__github {
+  grid-area: git;
+}
+.technical-skills__bem {
+  grid-area: bem;
+}
+.technical-skills__html {
+  grid-area: html;
+}
+.technical-skills__css {
+  grid-area: css;
+}
+.technical-skills__javascript {
+  grid-area: javascript;
+}
+.technical-skills__bem {
+  grid-area: bem;
+}
+.technical-skills__react {
+  grid-area: react;
+}
+.technical-skills__java {
+  grid-area: java;
+}
+.technical-skills__springboot {
+  grid-area: springboot;
+}

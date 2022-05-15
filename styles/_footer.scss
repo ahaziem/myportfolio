@@ -7,12 +7,6 @@ footer {
     background-color:$primary-color;
 }
 
-p {
-    text-align: bottom;
-    display: flex;
-    justify-content: center;
-}
-
 i {
     @include rectangleCircle;
     color: $primary-color;
