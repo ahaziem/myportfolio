@@ -3,6 +3,10 @@
 
 // need change the layout for my project.
 
+i {
+    color: $secondary-color;
+}
+
 .my-projects {
     font-family:$primary-font;
     font-size:20px;
@@ -16,7 +20,7 @@
     font-size: 40px;
     }
 
-    &__title {
+    &__prog {
         color:$color-blue;
     }
 
@@ -24,9 +28,15 @@
         color: $secondary-color;
     }
 
-    &__punkapi {
+    &__title {
         color:$primary-color;
     }
+    
+    &__preview {
+        color: $secondary-color;
+    }
+     
+
 }
 
 mark {
