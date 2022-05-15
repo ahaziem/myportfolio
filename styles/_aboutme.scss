@@ -1,0 +1,10 @@
+@use "./variable" as *;
+@use "./mixins" as *;
+
+.aboutme {
+
+    &__image{
+        width: 395px;
+        height: 292.47px;
+    }
+}
