@@ -3,16 +3,23 @@
 
 // need change the layout for my project.
 
+mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background-color: $color-blue;
+ }
+
 .my-projects {
     font-family:$primary-font;
     font-size:30px;
     
     &__logocode {
-        color: $secondary-color;
+        color:$primary-color;
     }
     
     &__logoeye {
-        color: $secondary-color;
+        color:$primary-color;
     }
 
     &__header {
@@ -37,16 +44,10 @@
     }
 
     &__image{
-        width: 40px;
-        height: 40px;
+        width: 395px;
+        height: 292.47px;
+        position: absolute;
     }
      
 
 }
-
-mark {
-    display: inline-block;
-    line-height: 0em;
-    padding-bottom: 0.5em;
-    background-color: $color-blue;
- }
