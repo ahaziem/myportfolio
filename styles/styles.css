@@ -128,17 +128,19 @@ i {
   grid-area: springboot;
 }
 
-i {
-  color: #8C9CB1;
-}
-
 .my-projects {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+}
+.my-projects__logocode {
+  color: #8C9CB1;
+}
+.my-projects__logoeye {
+  color: #8C9CB1;
 }
 .my-projects__header {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
 }
 .my-projects__prog {
   color: #BAE8E8;
@@ -151,6 +153,10 @@ i {
 }
 .my-projects__preview {
   color: #8C9CB1;
+}
+.my-projects__image {
+  width: 40px;
+  height: 40px;
 }
 
 mark {
