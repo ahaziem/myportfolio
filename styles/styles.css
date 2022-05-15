@@ -67,12 +67,6 @@ img {
   height: 67px;
 }
 
-p {
-  display: inline-block;
-  text-align: center;
-  color: black;
-}
-
 i {
   color: #BAE8E8;
   width: 60px;
@@ -86,6 +80,11 @@ i {
   font-size: 40px;
   position: relative;
   margin-top: 5rem;
+}
+.technical-skills__para {
+  display: inline-block;
+  text-align: center;
+  color: black;
 }
 .technical-skills__title {
   font-weight: bold;
@@ -131,22 +130,33 @@ i {
   grid-area: springboot;
 }
 
+i {
+  color: #8C9CB1;
+}
+
 .my-projects {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  position: absolute;
 }
 .my-projects__header {
   font-weight: bold;
   font-size: 40px;
 }
-.my-projects__title {
+.my-projects__prog {
   color: #BAE8E8;
 }
 .my-projects__para {
   color: #8C9CB1;
 }
-
-i {
+.my-projects__title {
   color: #272643;
+}
+.my-projects__preview {
+  color: #8C9CB1;
 }
 
 mark {
@@ -158,12 +168,6 @@ mark {
 
 footer {
   background-color: #272643;
-}
-
-p {
-  text-align: bottom;
-  display: flex;
-  justify-content: center;
 }
 
 i {
