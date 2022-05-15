@@ -78,11 +78,9 @@ i {
 .technical-skills {
   color: #8C9CB1;
   font-size: 40px;
-  position: relative;
   margin-top: 5rem;
 }
 .technical-skills__para {
-  display: inline-block;
   text-align: center;
   color: black;
 }
@@ -137,10 +135,6 @@ i {
 .my-projects {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  position: absolute;
 }
 .my-projects__header {
   font-weight: bold;

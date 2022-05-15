@@ -10,10 +10,6 @@ i {
 .my-projects {
     font-family:$primary-font;
     font-size:20px;
-    display:flex;
-    justify-content:flex-start;
-    align-content: flex-start;
-    position: absolute;
 
     &__header {
     font-weight: bold;
