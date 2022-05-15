@@ -1,0 +1,28 @@
+.my-projects {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  position: absolute;
+}
+.my-projects__header {
+  font-weight: bold;
+  font-size: 40px;
+}
+.my-projects__title {
+  color: #BAE8E8;
+}
+.my-projects__para {
+  color: #8C9CB1;
+}
+.my-projects__punkapi {
+  color: #272643;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  background-color: #BAE8E8;
+}
