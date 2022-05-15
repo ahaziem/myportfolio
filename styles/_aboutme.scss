@@ -2,8 +2,6 @@
 @use "./mixins" as *;
 
 .aboutme {
-    @include flexCenter;
-
     &__image{
         width: 395px;
         height: 400px;
@@ -11,5 +9,9 @@
 
     &__title {
         font-size: 48px;
+    }
+
+    &__para {
+        color:$secondary-color;
     }
 }
