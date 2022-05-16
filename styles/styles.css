@@ -166,11 +166,11 @@ mark {
   height: 400px;
 }
 
-.footer {
+footer {
   background-color: #272643;
   width: 100%;
   height: 216px;
-  color: #272643;
+  color: white;
 }
 
 .aboutme {
