@@ -2,6 +2,7 @@
 @use "./mixins" as *;
 
 @media only screen and (max-width: 600px) {
+
 .aboutme {
     text-align: center;
     &__image{
