@@ -176,17 +176,17 @@ mark {
   align-items: center;
   font-weight: bold;
 }
-.footer__list {
-  display: inline-block;
+.footer__iconlist {
   background-color: #BAE8E8;
+  display: inline-block;
+  margin: 15px;
   border-radius: 50%;
-  vertical-align: middle;
+}
+.footer__list {
+  display: table-cell;
   text-align: center;
-  text-decoration: none;
   color: #272643;
   margin-bottom: 50px;
-}
-.footer__email {
   vertical-align: middle;
   text-align: center;
 }

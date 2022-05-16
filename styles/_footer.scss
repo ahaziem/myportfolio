@@ -1,8 +1,6 @@
 @use "./variable" as *;
 @use "./mixins" as *;
 
-//  update the color of the icon in the footer 
-//  add a class for the icon for the footer
 
 .footer {
     background-color:$primary-color;
@@ -12,18 +10,19 @@
     @include flexCenter;
     font-weight: bold;
 
-&__list {
-    display: inline-block;
+&__iconlist {
     background-color:#BAE8E8; 
+    display: inline-block;
+    margin: 15px;
     border-radius: 50%;
-    vertical-align: middle; 
-    text-align: center;
-    text-decoration: none; 
-    color: $primary-color;
-    margin-bottom: 50px;
 }
 
-&__email {
+&__list {
+    
+    display: table-cell;
+    text-align: center;
+    color: $primary-color;
+    margin-bottom: 50px;
     vertical-align: middle; 
     text-align: center;
 }
