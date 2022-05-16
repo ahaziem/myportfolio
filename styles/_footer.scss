@@ -1,32 +1,39 @@
 @use "./variable" as *;
 @use "./mixins" as *;
 
-
+@media only screen and (max-width: 600px) {
+    
 .footer {
     background-color:$primary-color;
     width: 100%;
     height: 216px;
     color: white;
-    @include flexCenter;
     font-weight: bold;
 
 &__iconlist {
-    background-color:#BAE8E8; 
-    display: inline-block;
-    margin: 15px;
-    border-radius: 50%;
+    @include flexCenter;
+    text-align: center;
 }
 
-&__list {
-    
+&__email {
+    text-align: center;
+    margin-left: 50px;
+}
+
+&__list { 
     display: table-cell;
     text-align: center;
     color: $primary-color;
     margin-bottom: 50px;
     vertical-align: middle; 
     text-align: center;
+    background-color:#BAE8E8; 
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
 }
 
-}
 
+}
+}
 

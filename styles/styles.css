@@ -1,206 +1,217 @@
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
-  gap: 20px;
-  padding: 5px;
-}
-.header__name {
-  margin-right: 400px;
-}
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+    padding: 5px;
+  }
+  .header__name {
+    margin-right: 400px;
+  }
 
-.title {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #F7FAFA;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 20%;
+  .title {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7FAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20%;
+  }
+  .title__small {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8C9CB1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 400px;
+  }
+  .title__big {
+    font-size: 64px;
+    color: #272643;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .title__button {
+    color: #272643;
+    background-color: #BAE8E8;
+    font-size: 24px;
+    border: 2px solid #272643;
+    border-radius: 7px;
+    gap: 10px;
+    width: 321px;
+    height: 78px;
+    font-weight: bold;
+  }
+  .title__arrowsymbol {
+    color: #272643;
+    border: 2px;
+    font-size: 24px;
+  }
 }
-.title__small {
-  font-size: 20px;
-  font-weight: 500;
-  color: #8C9CB1;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-right: 400px;
-}
-.title__big {
-  font-size: 64px;
-  color: #272643;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  padding: 5px;
-}
-.title__button {
-  color: #272643;
-  background-color: #BAE8E8;
-  font-size: 24px;
-  border: 2px solid #272643;
-  border-radius: 7px;
-  gap: 10px;
-  width: 321px;
-  height: 78px;
-  font-weight: bold;
-}
-.title__arrowsymbol {
-  color: #272643;
-  border: 2px;
-  font-size: 24px;
-}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-body {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background-color: #BAE8E8;
+  }
 
-mark {
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.5em;
-  background-color: #BAE8E8;
-}
+  img {
+    width: 70px;
+    height: 70px;
+  }
 
-img {
-  width: 70px;
-  height: 70px;
-}
+  i {
+    color: #BAE8E8;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+  }
 
-i {
-  color: #BAE8E8;
-  width: 70px;
-  height: 70px;
-  display: inline-block;
-  text-align: center;
+  .technical-skills {
+    color: #8C9CB1;
+    font-size: 40px;
+    margin-top: 5rem;
+  }
+  .technical-skills__para {
+    text-align: center;
+    color: black;
+  }
+  .technical-skills__title {
+    font-weight: bold;
+    color: #272643;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .technical-skills__grid {
+    text-align: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-areas: "git html css" "javascript scss bem" "react java springboot";
+  }
+  .technical-skills__github {
+    grid-area: git;
+  }
+  .technical-skills__bem {
+    grid-area: bem;
+  }
+  .technical-skills__html {
+    grid-area: html;
+  }
+  .technical-skills__css {
+    grid-area: css;
+  }
+  .technical-skills__javascript {
+    grid-area: javascript;
+  }
+  .technical-skills__bem {
+    grid-area: bem;
+  }
+  .technical-skills__react {
+    grid-area: react;
+  }
+  .technical-skills__java {
+    grid-area: java;
+  }
+  .technical-skills__springboot {
+    grid-area: springboot;
+  }
 }
+@media only screen and (max-width: 600px) {
+  mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background-color: #BAE8E8;
+  }
 
-.technical-skills {
-  color: #8C9CB1;
-  font-size: 40px;
-  margin-top: 5rem;
+  .my-projects {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  .my-projects__logocode {
+    color: #272643;
+  }
+  .my-projects__logoeye {
+    color: #272643;
+  }
+  .my-projects__header {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .my-projects__prog {
+    color: #BAE8E8;
+  }
+  .my-projects__para {
+    color: #8C9CB1;
+  }
+  .my-projects__title {
+    color: #272643;
+  }
+  .my-projects__preview {
+    color: #272643;
+  }
+  .my-projects__image {
+    width: 395px;
+    height: 400px;
+  }
 }
-.technical-skills__para {
-  text-align: center;
-  color: black;
+@media only screen and (max-width: 600px) {
+  .footer {
+    background-color: #272643;
+    width: 100%;
+    height: 216px;
+    color: white;
+    font-weight: bold;
+  }
+  .footer__iconlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__email {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .footer__list {
+    display: table-cell;
+    text-align: center;
+    color: #272643;
+    margin-bottom: 50px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #BAE8E8;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+  }
 }
-.technical-skills__title {
-  font-weight: bold;
-  color: #272643;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.technical-skills__grid {
-  text-align: center;
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
-  grid-template-rows: 1fr, 1fr, 1fr;
-  grid-template-areas: "git html css" "javascript scss bem" "react java springboot";
-}
-.technical-skills__github {
-  grid-area: git;
-}
-.technical-skills__bem {
-  grid-area: bem;
-}
-.technical-skills__html {
-  grid-area: html;
-}
-.technical-skills__css {
-  grid-area: css;
-}
-.technical-skills__javascript {
-  grid-area: javascript;
-}
-.technical-skills__bem {
-  grid-area: bem;
-}
-.technical-skills__react {
-  grid-area: react;
-}
-.technical-skills__java {
-  grid-area: java;
-}
-.technical-skills__springboot {
-  grid-area: springboot;
-}
-
-mark {
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.5em;
-  background-color: #BAE8E8;
-}
-
-.my-projects {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-}
-.my-projects__logocode {
-  color: #272643;
-}
-.my-projects__logoeye {
-  color: #272643;
-}
-.my-projects__header {
-  font-weight: bold;
-  font-size: 50px;
-}
-.my-projects__prog {
-  color: #BAE8E8;
-}
-.my-projects__para {
-  color: #8C9CB1;
-}
-.my-projects__title {
-  color: #272643;
-}
-.my-projects__preview {
-  color: #272643;
-}
-.my-projects__image {
-  width: 395px;
-  height: 400px;
-}
-
-.footer {
-  background-color: #272643;
-  width: 100%;
-  height: 216px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-.footer__iconlist {
-  background-color: #BAE8E8;
-  display: inline-block;
-  margin: 15px;
-  border-radius: 50%;
-}
-.footer__list {
-  display: table-cell;
-  text-align: center;
-  color: #272643;
-  margin-bottom: 50px;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.aboutme {
-  text-align: center;
-}
-.aboutme__image {
-  width: 395px;
-  height: 400px;
-}
-.aboutme__title {
-  font-size: 48px;
-}
-.aboutme__para {
-  color: #8C9CB1;
+@media only screen and (max-width: 600px) {
+  .aboutme {
+    text-align: center;
+  }
+  .aboutme__image {
+    width: 395px;
+    height: 400px;
+  }
+  .aboutme__title {
+    font-size: 48px;
+  }
+  .aboutme__para {
+    color: #8C9CB1;
+  }
 }/*# sourceMappingURL=styles.css.map */

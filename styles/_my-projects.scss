@@ -1,8 +1,7 @@
 @use "./variable" as *;
 @use "./mixins" as *;
 
-// need change the layout for my project.
-
+@media only screen and (max-width: 600px) {
 mark {
     display: inline-block;
     line-height: 0em;
@@ -49,4 +48,5 @@ mark {
     }
      
 
+}
 }
