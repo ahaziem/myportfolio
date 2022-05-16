@@ -186,6 +186,10 @@ mark {
   color: #272643;
   margin-bottom: 50px;
 }
+.footer__email {
+  vertical-align: middle;
+  text-align: center;
+}
 
 .aboutme {
   text-align: center;
