@@ -1,7 +1,7 @@
 @use "./variable" as *;
 @use "./mixins" as *;
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 mark {
     display: inline-block;
     line-height: 0em;
@@ -51,8 +51,7 @@ mark {
     padding: 22.85px 0;
    display: flex;
    align-items: center;
-    }
-     
-
+    }  
 }
+
 }
