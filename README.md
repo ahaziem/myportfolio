@@ -1,3 +1,3 @@
 # myportfolio
 
-This is my updated version of my portfolio
+This is my part of my project
