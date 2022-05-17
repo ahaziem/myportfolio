@@ -1,11 +1,12 @@
 @use "./variable" as *;
 @use "./mixins" as *;
     
-@media only screen and (max-width: 700px) {
+
     body {
         background-color: white;
         font-family: $primary-font;
         font-size: 20px;
+        
     }
 
     mark {
@@ -30,16 +31,18 @@
 
     .technical-skills {
         color: $secondary-color;
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 5rem;
+        width: 90%;
 
         &__para {
                 text-align: center;
-                color:black;
+                color: #8c9cb1;;
    
        }
 
         &__title {
+            font-size: 35px;
             font-weight: bold;
             color:$primary-color;
             font-weight: 600;
@@ -97,7 +100,3 @@
     }
     
     }
-}
-
-
-  

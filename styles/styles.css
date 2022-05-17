@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .header {
     display: flex;
     align-items: center;
@@ -7,8 +7,11 @@
     gap: 20px;
     padding: 5px;
   }
-  .header__name {
-    margin-right: 400px;
+  .header__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .title {
@@ -18,21 +21,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20%;
+    width: 90%;
   }
   .title__small {
     font-size: 20px;
     font-weight: 500;
     color: #8C9CB1;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 400px;
+    width: 100%;
   }
   .title__big {
     font-size: 64px;
     color: #272643;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    padding: 5px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    white-space: normal;
   }
   .title__button {
     color: #272643;
@@ -51,86 +56,88 @@
     font-size: 24px;
   }
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  mark {
-    display: inline-block;
-    line-height: 0em;
-    padding-bottom: 0.5em;
-    background-color: #BAE8E8;
-  }
-
-  img {
-    width: 70px;
-    height: 70px;
-  }
-
-  i {
-    color: #BAE8E8;
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    text-align: center;
-  }
-
-  .technical-skills {
-    color: #8C9CB1;
-    font-size: 40px;
-    margin-top: 5rem;
-  }
-  .technical-skills__para {
-    text-align: center;
-    color: black;
-  }
-  .technical-skills__title {
-    font-weight: bold;
-    color: #272643;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .technical-skills__grid {
-    text-align: center;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
-    grid-template-areas: "git html css" "javascript scss bem" "react java springboot";
-  }
-  .technical-skills__github {
-    grid-area: git;
-  }
-  .technical-skills__bem {
-    grid-area: bem;
-  }
-  .technical-skills__html {
-    grid-area: html;
-  }
-  .technical-skills__css {
-    grid-area: css;
-  }
-  .technical-skills__javascript {
-    grid-area: javascript;
-  }
-  .technical-skills__bem {
-    grid-area: bem;
-  }
-  .technical-skills__react {
-    grid-area: react;
-  }
-  .technical-skills__java {
-    grid-area: java;
-  }
-  .technical-skills__springboot {
-    grid-area: springboot;
-  }
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
-@media only screen and (max-width: 600px) {
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  background-color: #BAE8E8;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+i {
+  color: #BAE8E8;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+}
+
+.technical-skills {
+  color: #8C9CB1;
+  font-size: 25px;
+  margin-top: 5rem;
+  width: 90%;
+}
+.technical-skills__para {
+  text-align: center;
+  color: #8c9cb1;
+}
+.technical-skills__title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #272643;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.technical-skills__grid {
+  text-align: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-areas: "git html css" "javascript scss bem" "react java springboot";
+}
+.technical-skills__github {
+  grid-area: git;
+}
+.technical-skills__bem {
+  grid-area: bem;
+}
+.technical-skills__html {
+  grid-area: html;
+}
+.technical-skills__css {
+  grid-area: css;
+}
+.technical-skills__javascript {
+  grid-area: javascript;
+}
+.technical-skills__bem {
+  grid-area: bem;
+}
+.technical-skills__react {
+  grid-area: react;
+}
+.technical-skills__java {
+  grid-area: java;
+}
+.technical-skills__springboot {
+  grid-area: springboot;
+}
+
+@media only screen and (max-width: 700px) {
   mark {
     display: inline-block;
     line-height: 0em;
@@ -168,8 +175,13 @@
     width: 395px;
     height: 400px;
   }
+  .my-projects__section {
+    padding: 22.85px 0;
+    display: flex;
+    align-items: center;
+  }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .footer {
     background-color: #272643;
     width: 100%;
@@ -200,7 +212,7 @@
     border-radius: 50%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .aboutme {
     text-align: center;
   }
@@ -214,4 +226,10 @@
   .aboutme__para {
     color: #8C9CB1;
   }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
